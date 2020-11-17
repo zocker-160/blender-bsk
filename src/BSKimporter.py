@@ -1,13 +1,9 @@
-from os import read
-from typing import Type
+
 import bpy
 import struct
-from bpy.types import FieldSettings
 
-import mathutils
-import math
-import numpy as np
-
+from math import radians
+from bpy.types import ArrayGpencilModifier
 from mathutils import Vector, Matrix, Quaternion
 
 
@@ -45,6 +41,10 @@ def main_function_import_file(filename: str):
         # prepare armature
         bpy.ops.object.armature_add(enter_editmode=False)
         Armature = bpy.context.view_layer.objects.active
+
+        # original files use XZY axis (Z and Y are flipped), so wee need to rotate the matrix of the armature object by -90° around X
+        rotM = Matrix.Rotation(radians(-90), 4, 'X')
+        Armature.matrix_world = Armature.matrix_world @ rotM
 
         bpy.ops.object.mode_set(mode="EDIT")
         #bpy.ops.object.editmode_toggle()

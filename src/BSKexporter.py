@@ -111,16 +111,12 @@ def main_function_export_file(filename: str):
                 ## this fuck here is still not really working fucking shit
 
                 root_matrix = curr_bone.matrix.copy()
-                # original files use XZY axis, hence we have to rotate by -90° around Z
-                rotM = Matrix.Rotation(radians(-90), 4, 'Z')
-
-                tMatrix = root_matrix @ rotM
+                tMatrix = main_aramature.matrix_world @ root_matrix
 
                 for _ in range(2):
                     rotW, rotX, rotY, rotZ = tMatrix.to_quaternion()
-                    bskfile.write( struct.pack("<4f", -rotX, rotY, rotZ, rotW) )
-                    tX, tY, tZ = tMatrix.to_translation()
-                    bskfile.write( struct.pack("<3f", tX, tZ, -tY) )
+                    bskfile.write( struct.pack("<4f", rotX, rotY, rotZ, rotW) )
+                    bskfile.write( struct.pack("<3f", *tMatrix.to_translation()) )
 
                 transMat = curr_bone.matrix.inverted() @ locMat
 
