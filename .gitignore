@@ -1,8 +1,7 @@
 __pycache__
-
-.directory
-
-links.txt
-
 org
 
+.directory
+links.txt
+
+*.zip
