@@ -45,6 +45,7 @@ def main_function_import_file(filename: str):
         # original files use XZY axis (Z and Y are flipped), so wee need to rotate the matrix of the armature object by -90° around X
         rotM = Matrix.Rotation(radians(-90), 4, 'X')
         Armature.matrix_world = Armature.matrix_world @ rotM
+        bpy.ops.object.transform_apply()
 
         bpy.ops.object.mode_set(mode="EDIT")
         #bpy.ops.object.editmode_toggle()
