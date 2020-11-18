@@ -3,7 +3,7 @@ bl_info = {
     "author" : "zocker_160",
     "description" : "addon for importing and exporting BSK armature files",
     "blender" : (2, 90, 1),
-    "version" : (0, 2),
+    "version" : (0, 3),
     "location" : "File > Import",
     "warning" : "This is still WiP!",
     "category" : "Import-Export",

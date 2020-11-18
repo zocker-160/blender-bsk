@@ -1,5 +1,5 @@
 ADDON_DIR=./src
-ZIP_NAME="BSK-Blender_02.zip"
+ZIP_NAME="BSK-Blender_03.zip"
 
 addon:
 	mkdir -p ${ADDON_DIR}/addon/io_scene_bsk
