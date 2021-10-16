@@ -27,4 +27,4 @@ make
 
 #### Link to BSK file structure:
 
-https://github.com/DummkopfOfHachtenduden/SilkroadDoc/wiki/JMXVBSK-0101
+https://github.com/DummkopfOfHachtenduden/SilkroadDoc/wiki/JMXVBSK
