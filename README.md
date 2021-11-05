@@ -40,8 +40,8 @@ make
 ### Supported Blender versions
 
 - Blender 2.83 LTS
-- Blender 2.90
+- Blender 2.90 and up
 
 #### Link to BSK file structure:
 
-https://github.com/DummkopfOfHachtenduden/SilkroadDoc/wiki/JMXVBSK-0101
+https://github.com/DummkopfOfHachtenduden/SilkroadDoc/wiki/JMXVBSK
