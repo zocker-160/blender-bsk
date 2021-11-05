@@ -15,6 +15,8 @@ the original post in case it gets deleted:
 
 [archive.org](https://web.archive.org/web/20211105211923/https://www.elitepvpers.com/forum/sro-pserver-guides-releases/4961698-wip-release-import-export-armature-blender-addon-2-9up.html)
 
+BIG Thanks to Doclex#9966 on Discord for letting me know!
+
 ----
 
 Blender Addon for importing and exporting BSK armature files
