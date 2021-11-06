@@ -10,6 +10,8 @@ https://www.elitepvpers.com/forum/sro-pserver-guides-releases/4961698-wip-releas
 
 THIS IS **NOT** ME AND PLS TELL THE FAKER TO FUCK OFF!
 
+Sharing is ÓK, but faking and impersonating is **NOT**.
+
 the original post in case it gets deleted:
 ![faker](faker.png)
 
