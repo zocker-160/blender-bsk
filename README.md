@@ -1,26 +1,5 @@
 # Blender-BSK
 
-----
-
-## IMPORTANT NOTE:
-Some idiot is impersonating me on the www.elitepvpers.com forum claiming my work as being his.
-
-Whoever came from this post: \
-https://www.elitepvpers.com/forum/sro-pserver-guides-releases/4961698-wip-release-import-export-armature-blender-addon-2-9up.html
-
-THIS IS **NOT** ME AND PLS TELL THE FAKER TO FUCK OFF!
-
-Sharing is ÓK, but faking and impersonating is **NOT**.
-
-the original post in case it gets deleted:
-![faker](faker.png)
-
-[archive.org](https://web.archive.org/web/20211105211923/https://www.elitepvpers.com/forum/sro-pserver-guides-releases/4961698-wip-release-import-export-armature-blender-addon-2-9up.html)
-
-BIG Thanks to Doclex#9966 on Discord for letting me know!
-
-----
-
 Blender Addon for importing and exporting BSK armature files
 
 ### Install addon
